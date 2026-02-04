@@ -1,0 +1,10 @@
+#include "MidiSong.h"
+
+namespace songs {
+  const MidiNote SONG[] = {
+    {0, 16, 0, 0, 1000}, // A4
+    {1, 19, 1, 500, 750} // C5
+  };
+
+  const size_t SONG_LEN = sizeof(SONG) / sizeof(SONG[0]);
+} // 1/2nd
